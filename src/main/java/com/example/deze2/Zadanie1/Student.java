@@ -1,4 +1,4 @@
-package com.example.deze2;
+package com.example.deze2.Zadanie1;
 
 public class Student {
 
@@ -13,6 +13,14 @@ public class Student {
     }
 
     int getScholarship() {
-        return averageMark == 5 ? 10000 : 8000;
+
+        if (averageMark == 5) {
+         return 10000;
+        }
+        else{
+           return 8000;
+        }
+
+
     }
 }

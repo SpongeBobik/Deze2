@@ -1,4 +1,4 @@
-package com.example.deze2;
+package com.example.deze2.Zadanie1;
 
 
 
